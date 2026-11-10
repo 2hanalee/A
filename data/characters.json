@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "source": "images/<ID>/0.webp 프로필 카드에서 판독 (2026-11-10)",
+    "imageSlots": {
+      "0": "프로필 카드 (텍스트 포함 — 사이트에서는 HTML로 재구성 권장)",
+      "1-5": "도시 배경 표정/포즈 바리에이션 (일부 '?' 당황 표정)",
+      "6": "해변 / 비키니 시티 버전",
+      "7": "능력 발현 컷"
+    },
+    "accent": "카드 엠블럼에서 추출 후 수동 보정한 시그니처 컬러 (UI 테마 변수로 사용)",
+    "todo": "relations, bio, firstMessage, chatUrl 은 참치가 채워야 하는 필드"
+  },
+  "factions": {
+    "aurora": { "name": "Hero Force : Aurora Union", "ko": "오로라 유니온", "note": "히어로 협회. 카드 DB의 발행 주체 — 빌런도 이 DB에 '위협 등급'으로 등록됨" },
+    "spiral": { "name": "Invasion Force : Spiral Legion", "ko": "스파이럴 리전", "note": "침공 세력. 현재 등록 인원 1명(김태양)" },
+    "none":   { "name": "Unaffiliated", "ko": "무소속", "note": "협회 관찰 대상" }
+  },
+  "ranks": ["S", "A", "B", "C", "D", "X"],
+  "characters": [
+    {"id":"AA","name":"아리아","codename":"인펙션","side":"Villain","faction":"aurora","rank":"A","ability":"Infection","abilityKo":"감염","auId":"INFECTION-017","quote":"잠복기는 이미 끝났어요. 남은 건 경과관찰뿐이죠.","accent":"#3D8BFF"},
+    {"id":"AP","name":"김태양","codename":"알파","side":"Villain","faction":"spiral","rank":"B","ability":"Marionette","abilityKo":"실조종","auId":"SL-ID : ALPHA-022","quote":"실, 연결. …자, 얌전히 춤이나 춰줘.","accent":"#A77BFF"},
+    {"id":"AR","name":"세인트리아","codename":"아우라","side":"Hero","faction":"aurora","rank":"A","ability":"Sigil Enhancement","abilityKo":"성흔강화","auId":"AURA-008","quote":"성흔, 개방. 물러서지 않습니다.","accent":"#F2C14E"},
+    {"id":"CL","name":"류하윤","codename":"시엘","side":"Hero","faction":"aurora","rank":"B","ability":"Glaciation","abilityKo":"결빙","auId":"CIEL-021","quote":"결빙. 더 이상의 확산은 여기까지.","accent":"#7CC4FF"},
+    {"id":"CR","name":"하이제","codename":"크림슨","side":"Villain","faction":"aurora","rank":"B","ability":"Shadow Engrave","abilityKo":"그림자각인","auId":"AURA-018","quote":"…볼일 없으면 비켜. 그림자군과의 시간을 방해받았잖아.","accent":"#6CFF5A"},
+    {"id":"CS","name":"민사랑","codename":"크로스","side":"Hero","faction":"aurora","rank":"B","ability":"Purification","abilityKo":"정화","auId":"AURA-009","quote":"정화, 시작할게요♡","accent":"#FF5FA2"},
+    {"id":"CT","name":"공하나","codename":"서킷","side":"Villain","faction":"aurora","rank":"B","ability":"Aberrant Operation","abilityKo":"이형연산","auId":"AURA-019","quote":"3초면 카메라 다 먹통으로 만들 수 있어.","accent":"#2FD3FF"},
+    {"id":"DH","name":"도하린","codename":"허니","side":"Hero","sideNote":"위장","faction":"aurora","rank":"A","ability":"Beehive Summon","abilityKo":"벌떼소환","auId":"AURA-010","quote":"여왕벌, 소환. …이제부터는 제가 짜놓은 무대예요.","accent":"#FFD23F"},
+    {"id":"ED","name":"하리소","codename":"이든","side":"Hero","faction":"aurora","rank":"C","ability":"Garden","abilityKo":"초목 정원","auId":"EDEN-004","quote":"안녕하세요 아스파라거스씨, 오늘도…좋은 하루 되시기를.","accent":"#A8E06A"},
+    {"id":"EL","name":"엘렌 드 몬테피아나","codename":"(활동명 없음)","side":"Neutral","faction":"none","rank":"X","rankNote":"비해당 (협회 관찰대상)","ability":"Archaic Magic","abilityKo":"고제마법","auId":"AURA-???","quote":"하층민 따위가 감히 나, 엘렌 드 몬테피아나 앞을 가로막아?","accent":"#E8C66A"},
+    {"id":"IG","name":"하로 이그니","codename":"이그니스","side":"Hero","faction":"aurora","rank":"B","ability":"Searing Blaze","abilityKo":"작열","auId":"IGNIS-017","quote":"몸 좀 태워볼까? 근질근질하네.","accent":"#FF8A1F"},
+    {"id":"JN","name":"윤지아","codename":"제니아","side":"Hero","faction":"aurora","rank":"B","ability":"Passage","abilityKo":"통로","auId":"XENIA-009","quote":"으흐흐… 따라와 봐, 재밌는 거 보여줄게. 뭔지는 비밀~","accent":"#7A7CFF"},
+    {"id":"KA","name":"피가로","codename":"카밀라","side":"Villain","faction":"aurora","rank":"B","ability":"Blood Pact","abilityKo":"혈계","auId":"AURA-012","quote":"어머, 그렇게 빤히 보면… 계약하고 싶어지는 거 알아요?","accent":"#FF4D7A"},
+    {"id":"LT","name":"백서윤","codename":"루나테라","side":"Hero","faction":"aurora","rank":"B","ability":"Moon Halo","abilityKo":"달무리","auId":"LUNATERRA-010","quote":"저는 달하늘의 돌멩이가 되고 싶어요…","accent":"#B9A2FF"},
+    {"id":"MG","name":"진하온","codename":"마그마","side":"Villain","faction":"aurora","rank":"C","ability":"Magmatize","abilityKo":"용암화","auId":"AURA-016","quote":"미친년처럼 보여도, 난 나름의 선이 있는 사람이야. 크하하!!!","accent":"#FF3B2F"},
+    {"id":"MK","name":"사이온지 미코","codename":"미코","side":"Hero","faction":"aurora","rank":"C","ability":"Guardian Ward","abilityKo":"수호영결계","auId":"MIKO-013","quote":"오늘도… 무탈하시기를 빌어드릴게요.","accent":"#FF5A5A"},
+    {"id":"MO","name":"하나모리 미오","codename":"미오","side":"Hero","faction":"aurora","rank":"C","ability":"Lucky Spirit","abilityKo":"행운의 정령","auId":"AURA-022","quote":"나와라, 럭키! 다 같이 운 좋게 가보자고요!","accent":"#5BEA7A"},
+    {"id":"NB","name":"레이노버스","codename":"노버스","side":"Hero","sideNote":"협회장","faction":"aurora","rank":"S","ability":"Override Suit","abilityKo":"오버라이드 슈트","auId":"NOVUS-001","quote":"자, 실전 데이터 좀 뽑아볼까? — 오버라이드, 가동.","accent":"#FFC21A"},
+    {"id":"NT","name":"하예린","codename":"녹턴","side":"Villain","faction":"aurora","rank":"A","ability":"Illusion Theater","abilityKo":"환영극장","auId":"AURA-014","quote":"환영극장, 개막. 자, 어느 게 진짜인지 맞혀보세요.","accent":"#B44DFF"},
+    {"id":"NV","name":"세인 노바","codename":"노바","side":"Villain","faction":"aurora","rank":"S","ability":"Constellation Interference","abilityKo":"성좌간섭","auId":"AURA-014","quote":"별자리는 거짓말을 하지 않아. 사람만 할 뿐이지. …너는 다를려나?","accent":"#6E8CFF"},
+    {"id":"PJ","name":"류하늘","codename":"페자","side":"Hero","faction":"aurora","rank":"B","ability":"Feather Summon","abilityKo":"깃털소환","auId":"PEZA-006","quote":"자, 깃털이 몇 개인지 세어볼래?","accent":"#4FE3C8"},
+    {"id":"RE","name":"하도경","codename":"레이","side":"Hero","faction":"aurora","rank":"B","ability":"Invisibility","abilityKo":"투명화","auId":"RAY-014","quote":"…딱히 할 말 없는데.","accent":"#3FA0FF"},
+    {"id":"RJ","name":"비올레타","codename":"로자린드","side":"Villain","sideNote":"그레이존","faction":"aurora","rank":"B","ability":"Black Rose Venom","abilityKo":"흑장미의 독","auId":"AURA-013","quote":"가시는 원래… 아주 세게 찔러줘야 제맛이지.","accent":"#C77DFF"},
+    {"id":"RY","name":"에스텔 카린","codename":"로열","side":"Hero","faction":"aurora","rank":"A","ability":"Vow Armor","abilityKo":"서약갑주","auId":"ROYAL-012","quote":"서약갑주, 전개. …여기서부턴 순정의 시간입니다.","accent":"#FFB020"},
+    {"id":"SG","name":"온유하","codename":"사이가","side":"Hero","faction":"aurora","rank":"B","ability":"Overclock","abilityKo":"오버클럭","auId":"CYGA-012","quote":"오버클럭, 가동. 계산은 끝났어요.","accent":"#B7A6E8"},
+    {"id":"SL","name":"하윤슬","codename":"솔라","side":"Hero","faction":"aurora","rank":"S","ability":"Solar Descent","abilityKo":"광휘강림","auId":"AURA-021","quote":"불 좀 키고 살게나. 어둠은 딱 질색이라서.","accent":"#FFB347"},
+    {"id":"SN","name":"오다인","codename":"시그널","side":"Hero","faction":"aurora","rank":"B","ability":"Sonic Resonance","abilityKo":"음파공명","auId":"SIGNAL-011","quote":"다들 힘내요— 브로드캐스트, 시작할게요!","accent":"#FF6FB5"},
+    {"id":"SPA","name":"강로아","codename":"세르핀","side":"Hero","faction":"aurora","rank":"B","ability":"Antidote Refinement","abilityKo":"항독정련","auId":"SERPIN-009","quote":"미안하지만, 이건 마비만 시킬게요. 오래 안 가요.","accent":"#9B6BFF","pair":"SPB"},
+    {"id":"SPB","name":"강리아","codename":"세라핀(다크)","side":"Villain","faction":"aurora","rank":"B","ability":"Corrosion","abilityKo":"침식","auId":"AURA-015","quote":"구해주는 것도 지겹지 않아? 나는 반대가 더 편하던데.","accent":"#A64DFF","accent2":"#8CFF3A","pair":"SPA"},
+    {"id":"SR","name":"카이 세라","codename":"세라.K","side":"Hero","faction":"aurora","rank":"A","ability":"Engraved Tag Enhancement","abilityKo":"강화 인식표 각인","auId":"SERA-K-011","quote":"각인, 기동. …더 이상 물러설 곳은 없다.","accent":"#C8D3E6"},
+    {"id":"SV","name":"윤이레","codename":"사바나","side":"Hero","faction":"aurora","rank":"C","ability":"Wildlife Summon","abilityKo":"야생부림","auId":"AURA-008","quote":"얘들 이름이 뭐냐고? 어…호식이랑 두식이?","accent":"#FFB23E"},
+    {"id":"TR","name":"서은하","codename":"테라","side":"Hero","faction":"aurora","rank":"B","ability":"Terrain Shift","abilityKo":"지형변조","auId":"AURA-020","quote":"밥은 먹었어? 안 먹었으면 이리 와 앉아♡","accent":"#E0B13A"},
+    {"id":"VL","name":"하유하","codename":"베일","side":"Villain","faction":"aurora","rank":"B","ability":"Mask Separation","abilityKo":"가면분리","auId":"AURA-017","quote":"…감정은, 방해만 될 뿐이야.","accent":"#6F86D9"},
+    {"id":"VT","name":"진서아","codename":"볼트","side":"Hero","faction":"aurora","rank":"D","ability":"Discharge","abilityKo":"방전","auId":"VOLT-024","quote":"찌릿하게 가자— 방전!","accent":"#4FB3FF"}
+  ]
+}
